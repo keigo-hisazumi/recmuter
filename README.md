@@ -40,7 +40,7 @@ Tests/MuteLogicTests.cpp  MuteLogic の単体テスト
 - Windows: Visual Studio 2022（x64。AAX / VST3 をビルド）
 
 ```bash
-cmake -S . -B build              # macOS は -G Xcode を付けても可
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release   # macOS は -G Xcode を付けても可
 cmake --build build --config Release
 ctest --test-dir build -C Release   # 単体テスト
 ```

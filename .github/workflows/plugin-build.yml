@@ -40,13 +40,15 @@ jobs:
           sudo apt-get install -y ninja-build libasound2-dev libfreetype-dev libfontconfig1-dev \
             libx11-dev libxrandr-dev libxinerama-dev libxcursor-dev libxcomposite-dev libxext-dev
 
+      # 単一構成ジェネレーター（Makefile / Ninja）でも成果物が Release/ 配下に出力されるよう、
+      # CMAKE_BUILD_TYPE を常に指定する（Visual Studio では無視される）
       - name: CMake 設定
         shell: bash
         run: |
           if [ "$RUNNER_OS" = "Linux" ]; then
             cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
           else
-            cmake -S . -B build
+            cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
           fi
 
       - name: ビルド
