@@ -13,7 +13,7 @@ assignees: []
 
 
 ## 環境情報 (Environment)
-- OS / ブラウザ / バージョンなど
+- OS / DAW / バージョンなど
 
 ## 期待する結果 (Expected result)
 

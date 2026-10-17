@@ -11,7 +11,7 @@ assignees: []
 
 ## 再現手順 (Steps to Reproduce)
 1. どの操作をしたか書く
-2. どのページ/コマンド/環境で発生したか書く
+2. どの DAW / トラック構成で発生したか書く
 3. 最小限の再現手順を示してください
 
 ## 期待される挙動 (Expected behavior)
@@ -22,8 +22,8 @@ assignees: []
 
 ## 再現環境 (Environment)
 - OS: 
-- ブラウザ/バージョン: 
-- アプリ/ライブラリのバージョン: 
+- DAW / バージョン（例: Pro Tools 2024.10）: 
+- RecMuter のバージョン / コミット: 
 - その他: 
 
 ## ログ / エラーメッセージ (Logs / Error messages)

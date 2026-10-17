@@ -77,7 +77,7 @@ wraptool sign --verbose --account <PACE アカウント> --wcguid <WCGUID> \
 
 ## AI アシスタント運用方針
 
-このテンプレートは **Claude をメインの AI アシスタント** として利用し、**Cursor / GitHub Copilot をサブツール** として併用するワークフローを想定しています。開発ルールの **正本は [`AGENTS.md`](./AGENTS.md)** で、各ツール向けの指示書はそれを参照する構成です。
+このリポジトリは **Claude をメインの AI アシスタント** として利用し、**Cursor / GitHub Copilot をサブツール** として併用するワークフローを想定しています。開発ルールの **正本は [`AGENTS.md`](./AGENTS.md)** で、各ツール向けの指示書はそれを参照する構成です。
 
 | ツール | ファイル | 役割 |
 | --- | --- | --- |
