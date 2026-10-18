@@ -22,7 +22,7 @@ Pro Tools 用の **AAX Native** プラグインです。ホストが **再生中
 
 ## 構成
 
-```
+```text
 CMakeLists.txt            ビルド設定（JUCE を FetchContent で自動取得）
 Source/MuteLogic.h        ミュート判定とフェード処理（JUCE 非依存）
 Source/PluginProcessor.*  オーディオ処理・パラメータ
