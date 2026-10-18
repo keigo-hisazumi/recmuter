@@ -8,28 +8,25 @@ assignees: []
 
 ## 概要 (Summary)
 
-
 ## 再現手順 (Steps to Reproduce)
+
 1. どの操作をしたか書く
 2. どの DAW / トラック構成で発生したか書く
 3. 最小限の再現手順を示してください
 
 ## 期待される挙動 (Expected behavior)
 
-
 ## 実際の挙動 (Actual behavior)
 
-
 ## 再現環境 (Environment)
-- OS: 
-- DAW / バージョン（例: Pro Tools 2024.10）: 
-- RecMuter のバージョン / コミット: 
-- その他: 
+
+- OS:
+- DAW / バージョン（例: Pro Tools 2024.10）:
+- RecMuter のバージョン / コミット:
+- その他:
 
 ## ログ / エラーメッセージ (Logs / Error messages)
 
-
 ## スクリーンショット (Optional)
-
 
 ## 備考 (Additional context)
